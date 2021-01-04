@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    background: radial-gradient(rgb(238, 229, 202),rgba(128, 0, 128, 0.932));
+    padding: 10px 40px 10px 40px;
+    font-family: 'Xanh Mono', monospace, sans-serif;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: gold;
+}
+h1 {
+text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+font-family: 'Redressed', cursive, sans-serif;
+font-size: 4rem;
+font-weight: 100;
+font-weight: normal;
+font-style: italic;
+letter-spacing: 4px;
+word-spacing: 10px;
+text-transform: uppercase;
+
+}
+.menu {
+    
+     background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    }
+
+.topnav {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    
+}
+.photo {
+    background-image: url(https://2.bp.blogspot.com/_pKTSuMamJmw/TUFWHtlQ0eI/AAAAAAAAB0A/sMqEM2Tnss8/s1600/heaven2.jpg);
+}
+.content-area {
+    border:10px solid;
+    border-width:1px 0;
+    margin-bottom:2em;
+    font-size: 80;
+    line-height: 1;
+    
+}
