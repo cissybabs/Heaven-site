@@ -1,0 +1,17 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.image-banner {
+    display: block;
+    position: relative;
+}
+.banner-description {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .65);
+    padding: 15px 20px;
+}
